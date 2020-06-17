@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #92D1B4;/*#bed9ba*/
+  color: white;
+}
+
+h1,
+.scorebox,
+#selections {
+  text-align: center;
+}
+
+h1,
+#selections {
+  font-family: 'Chelsea Market';
+}
+
+h1 {
+  font-size: 78px;
+  padding-top: 40px;
+  text-shadow: 2px 2px 3px  #74a790;
+}
+
+.scorebox {
+  margin-top: 50px;
+}
+
+#playerchoice,
+table,
+#computerchoice {
+  display: inline-block;
+}
+
+#playerchoice,
+#computerchoice {
+  position: relative;
+  bottom: 40px;
+}
+
+#playerchoice {
+  padding-right: 50px;
+}
+
+table {
+  font-family: 'Montserrat';
+}
+
+table {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color:  #7b97e0;
+}
+
+th,
+#selections {
+  text-transform: uppercase;
+}
+
+th,
+td {
+  font-weight: 700;
+  padding: 10px;
+}
+
+td {
+  font-size: 40px;
+}
+
+.tableleft,
+.tableright {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#computerchoice {
+  padding-left: 50px;
+}
+
+#rock,
+#paper,
+#scissors {
+  cursor: pointer;
+}
+
+#rock {
+  margin-right: 40px;
+}
+
+#paper {
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
+#selections {
+  margin-top: 50px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
